@@ -1,1 +1,10 @@
+name: Build APK
 
+on: [push, workflow_dispatch]
+
+jobs:
+build:
+runs-on: ubuntu-latest
+steps:
+- name: Test workflow
+run: echo "Workflow is working"
