@@ -51,8 +51,7 @@ public class MainActivity extends AppCompatActivity {
         logo.setImageResource(com.socialaffairs.chat.R.drawable.logo);
         logo.setAdjustViewBounds(true);
         root.addView(logo, new LinearLayout.LayoutParams(-1, 180));
-        root.addView(title("مديرية الشؤون الاجتماعية\nوالعمل في محافظة إدلب", 20));
-        root.addView(title("موظفو مبنى مديرية الشؤون الاجتماعية", 24));
+root.addView(title("مديرية الشؤون الاجتماعية\nوالعمل في محافظة إدلب", 20));        root.addView(title("موظفو مبنى مديرية الشؤون الاجتماعية", 24));
         EditText name = new EditText(this);
         name.setHint("أدخل اسم الموظف");
         name.setTextSize(17); name.setGravity(Gravity.RIGHT);
